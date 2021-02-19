@@ -1,3 +1,5 @@
+Week 2 of "Python Programming Essentials".
+
 Question 1
 Consider the following Python function definition:
 
