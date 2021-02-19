@@ -1,0 +1,68 @@
+Question 1
+Which of the following are Boolean values in Python?  
+- False
+- True
+
+Question 2
+Consider the Boolean expression not (p or not q). Give the four following values in order, separated only by spaces:
+the value of the expression when p is True, and True,
+the value of the expression when p is True, and q is False,
+the value of the expression when p is False, and q is True,
+the value of the expression when p is False, and q is False,
+
+Remember, each of the four results you provide should be True or False with the proper capitalization.
+- False False True False
+
+Question 3
+Given the following initialization:
+
+bool1 = True
+bool2 = False
+
+Which of the expressions below evaluate to True?
+- bool1 != False  
+- not (bool1 == bool2)  
+- not False  
+
+Question 4
+Two expressions are logically equivalent if they have the same value for all possible values of the variables that comprise the expression.
+
+Given two numbers num1 and num2, which one of the expressions below is logically equivalent to the following arithmetic comparison: 
+num1 >= num2
+
+- (num1 > num2) or (num1 == num2)
+
+Question 5
+An if statement can have at most how many elif parts? 
+- Unlimited, i.e., 0 or more  
+
+Question 6
+In Python, conditional statements may be nested.  Consider the following function that takes two Boolean values as input and returns a Boolean value.
+
+def nand(bool1, bool2):
+    """
+    Take two Boolean values bool1 and bool2
+    and return the specified Boolean values
+    """
+    
+    if bool1:
+        if bool2:
+            return False
+        else:
+            return True
+    else:
+        return True
+        
+Which Boolean expression below is logically equivalent to the function call nand(bool1, bool2) where bool1 and bool2 are Boolean variables?
+- not (bool1 and bool2)
+The function name nand should have been a give away since it is short for "not and".
+
+Question 7
+The Collatz conjecture is an example of a simple computational process whose behavior is so unpredictable that the world's best mathematicians still don't understand it.
+
+Consider the simple function f(n)f(n) (as defined in the Wikipedia page above) that takes an integer nn and divides it by two if nn is even and multiplies nn by 33 and then adds one to the result if nn is odd.  
+The conjecture involves studying the value of expressions of the form f(f(f(...f(f(n)))))f(f(f(...f(f(n))))) as the number of calls to the function ff increases.  
+The conjecture is that, for any non-negative integer nn, repeated application of ff to nn yields a sequence of integers that always includes 11. 
+
+Compute the value of the expression f(f(f(f(f(f(f(f(f(f(f(f(f(f(1071))))))))))))))
+- 3053
