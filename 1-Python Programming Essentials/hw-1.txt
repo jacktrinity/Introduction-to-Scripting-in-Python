@@ -1,3 +1,5 @@
+Week 1 of "Python Programming Essentials".
+
 Question 1
 In the following piece of code, there is one line starting with #. What does this line mean in Python?
 
