@@ -1,0 +1,42 @@
+Question 1
+Which of the expressions below select the last character in the string "coconut"?  
+
+- "coconut"[-1]  
+- "coconut"[6]  
+
+Question 2
+Which of the string slices below selects the string "Anthrax" from the string "Castle Anthrax"?  
+- "Castle Anthrax"[7  : 15]
+- "Castle Anthrax"[7  :]
+
+Question 3
+Which one of the operators below can not be used with strings in Python?
+-  - (subtraction), String subtraction in not defined in Python.
+
+Question 4
+What does the expression a_str.find(sub) do when the string sub is not a substring of the string a_str?
+- Return the value -1.
+
+Question 5
+Which of the string format expressions below return the string "abracadabra"?  
+- "{0}{1}{0}".format("abra", "cad")
+- "{2}{1}{0}".format("abra", "cad", "abra")
+
+Question 6
+Write a function count_vowels(word) that takes the string word as input and returns the number of occurrences of lowercase vowels (i.e. the lowercase letters "aeiou") in word
+After you have implemented count_vowels, run the following two statements:
+
+print(count_vowels("aaassseefffgggiiijjjoOOkkkuuuu"))
+print(count_vowels("aovvouOucvicIIOveeOIclOeuvvauouuvciOIsle"))
+
+- 17
+
+Question 7
+Write a function demystify(l1_string) that takes a string composed of the characters "l" and "1" and returns the string formed by replacing each instance of "l" by "a" and each instance of "1" by "b".
+
+Once you have implemented demystify, test your function with calls below.
+
+print(demystify("lll111l1l1l1111lll"))
+print(demystify("111l1l11l11lll1lll1lll11111ll11l1ll1l111"))
+
+- bbbababbabbaaabaaabaaabbbbbaabbabaababbb
