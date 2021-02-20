@@ -1,3 +1,5 @@
+Week 1 of "Python Data Representations"
+
 Question 1
 Which of the expressions below select the last character in the string "coconut"?  
 
