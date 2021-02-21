@@ -1,0 +1,73 @@
+Question 1
+Which of the following expressions corresponds to a dictionary with no elements?
+- dict()
+- {}
+
+Question 2
+Given an existing dictionary favorites, what Python statement adds the key "fruit" to this dictionary with the corresponding value "blackberry"?  
+- favorites["fruit"] = "blackberry"  
+
+Question 3
+Which of the expressions below returns True when the dictionary my_dictionary contains the key my_key and False otherwise?
+- my_key in my_dictionary
+
+Question 4
+Keys in a dictionary can have which of the following types?
+- tuple, Tuples are immutable.
+- float, Note that floats are allowed as keys since they are immutable.  However, using floats as key is dangerous due to floating point error.
+
+Question 5
+Values in a dictionary can have which of the following types?
+- int
+- float
+- bool
+- dict
+
+Question 6
+Consider the following dictionary:
+
+instructor_ratings = {"Joe" : "awesome", "Scott" : "hmmm..."}
+
+What happens when Python evaluates the expression instructor_ratings["John"]?
+-  Since "John" is not a key in the dictionary, Python raises a KeyError exception.  
+
+Question 7
+Write a function count_letters(word_list) that takes as input a list of words that are composed entirely of lower case letters . 
+This function should return the lower case letter that appears most frequently
+
+def count_letters(word_list):
+    """ See question description """
+    
+    ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
+    letter_count = {}
+    for letter in ALPHABET:
+        letter_count[letter] = 0
+        
+    # enter code here
+
+When you are confident in your code, compute the lower case letter return by count_letters(monty_words) where monty_words is defined as shown.
+monty_quote = "listen strange women lying in ponds distributing swords is no basis for a system of government supreme executive power derives from a mandate from the masses not from some farcical aquatic ceremony"
+
+monty_words = monty_quote.split(" ")
+
+- e, The letter 'e' appears 20 times in the quote.   
+
+def count_letters(word_list):
+    """ See question description """
+    
+    ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
+    letter_count = {}
+    for letter in ALPHABET:
+        letter_count[letter] = 0
+        
+    for word in word_list:
+        for char in word:
+        
+        # Check char is valid
+            if char in letter_count:
+                letter_count[char] += 1
+            
+    return letter_count
+  
