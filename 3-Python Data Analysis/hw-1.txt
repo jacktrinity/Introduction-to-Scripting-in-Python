@@ -1,3 +1,5 @@
+Week 1 of "Python Data Analysis"
+
 Question 1
 Which of the following expressions corresponds to a dictionary with no elements?
 - dict()
