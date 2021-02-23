@@ -1,5 +1,6 @@
 """
-Project for Week 3 of "Python Data Analysis".
+Project for Week 3 and 4 of "Python Data Analysis".
+Read and write CSV files using a dictionary of dictionaries.
 Processing CSV files with baseball stastics.
 
 CodeSkulptor: https://py3.codeskulptor.org/#save3_j3O6zgT4hQ.py
