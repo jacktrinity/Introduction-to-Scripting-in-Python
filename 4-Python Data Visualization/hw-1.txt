@@ -1,3 +1,5 @@
+Week 1 of "Python Data Visualization"
+
 Question 1
 It is important to learn how to read and search through the Python documentation. The answers to all of the questions in this quiz can be found within the official Python 3 documentation.
 
